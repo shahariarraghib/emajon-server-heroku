@@ -85,6 +85,9 @@ app.get('/', (req, res) => {
 app.get('/hello', (req, res) => {
     res.send('Ema');
 })
+app.get('/hello2', (req, res) => {
+    res.send('Ema');
+})
 
 
 // for server connection step5
